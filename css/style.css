@@ -1,3 +1,5 @@
+
+/* header ; container ; search area  */
 .header {
   list-style-type: none;
   margin: 10px;
@@ -53,6 +55,8 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   padding-left: 14px;
 }
 
+
+/* search and voice svg  */
 .search-img {
   display: flex;
   align-items: center;
@@ -71,6 +75,24 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   position: relative;
 }
 
+.voice-img {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: -5px;
+}
+
+.voice-img span{
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+/* input */
 .input-enter {
   display: flex;
   flex: 1;
@@ -109,9 +131,13 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   appearance: textfield;
   cursor: text;
   border: none;
+  width: 480px;
 }
 
+/*  google search button */
 .googlesearch {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
   margin: 11px 4px;
   padding: 0 16px;
   line-height: 27px;
@@ -120,13 +146,16 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   cursor: pointer;
   user-select: none;
   background-color: #f8f9fa;
-  border: 1px solid #f8f9fa;
+  border: 1px solid #f2f2f2;
   border-radius: 4px;
-  color: #3c4043;
+  color:#5f6368;
   height: 36px;
 }
 
+/* feeling lucky button */
 .feelinglucky {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
   padding: 0 16px;
   line-height: 27px;
   min-width: 54px;
@@ -134,12 +163,13 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   cursor: pointer;
   user-select: none;
   background-color: #f8f9fa;
-  border: 1px solid #f8f9fa;
+  border: 1px solid #f2f2f2;
   border-radius: 4px;
   height: 36px;
-  color: #3c4043;
+  color:#5f6368;  
 }
 
+/* footer */
 .footer {
   margin: 0;
   padding: 0;
@@ -174,6 +204,8 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-decoration: underline;
 }
 
+
+/* button general css settings */
 .buttons{
     line-height: 27px;
     height: 36px;
@@ -188,19 +220,16 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
   background-color: #f8f9fa;
   color: #202124;
+  box-shadow: 2px 1px 8px #888888;
 }
 .googlesearch:hover {
   box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
   background-color: #f8f9fa;
   color: #202124;
-}
-.googlesearch:focus{
-  border: 1px solid #4285f4;
-  outline: none;
+  box-shadow: 2px 1px 8px #888888;
 }
 
-
-
+/* li general css settings */
 li{
   list-style-type: none;
 }
