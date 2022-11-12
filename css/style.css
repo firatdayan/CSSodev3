@@ -5,6 +5,10 @@
   margin-right: 16px;
   font-family: arial,sans-serif;
   font-size: 13px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
 }
 
 .headerli a {
@@ -22,6 +26,7 @@
 .container {
   text-align: center;
   margin: 100px;
+  background-color:transparent;
 }
 
 .search-area {
@@ -34,6 +39,7 @@
   margin: 0 auto;
   margin-top: -77px;
   width: 582px;
+  border-radius: 24px;
 }
 
 .search-area:hover {
@@ -102,6 +108,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: start;
   appearance: textfield;
   cursor: text;
+  border: none;
 }
 
 .googlesearch {
@@ -112,6 +119,11 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: center;
   cursor: pointer;
   user-select: none;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  height: 36px;
 }
 
 .feelinglucky {
@@ -121,6 +133,11 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   text-align: center;
   cursor: pointer;
   user-select: none;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  height: 36px;
+  color: #3c4043;
 }
 
 .footer {
@@ -134,6 +151,7 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
   width: 100%;
   margin-left: -8px;
   line-height: 10px;
+  background-color:#F2F2F2;
 }
 
 .footerli {
@@ -154,4 +172,35 @@ box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
 
 .footerli a:hover {
   text-decoration: underline;
+}
+
+.buttons{
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    padding-top: 18px;
+}
+
+.feelinglucky:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  color: #202124;
+}
+.googlesearch:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  color: #202124;
+}
+.googlesearch:focus{
+  border: 1px solid #4285f4;
+  outline: none;
+}
+
+
+
+li{
+  list-style-type: none;
 }
